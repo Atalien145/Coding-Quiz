@@ -26,11 +26,13 @@ $(function(){
                     alert("you aint right")
                 });
 
+                $('#btn20').on('click', function() {
+                    $('#body1').html("<h1>You Won, You Are The Greatest Ever!!!</h1>")
+                });
+
             })
 
-            $('#btn20').on('click', function() {
-                $('#body1').html("<p>cheese</p>")
-            });
+            
 
 
              
